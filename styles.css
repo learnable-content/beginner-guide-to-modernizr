@@ -1,15 +1,12 @@
 /*
- * Here we're making sure :after/:before are
- * supported via the .generatedcontent class.
- * But this adds complexity and really isn't
- * necessary.
+ * Removing the .generatedcontent calss as we don't need it
  */
 
-.generatedcontent.no-flexbox .flex:after {
+.no-flexbox .flex:after {
   /* '/2718' is the unicode for the cross symbol */
   content: '/2718';
 }
-.generatedcontent li:after {
+.flex:after {
   /* '/2713' is the unicode for the tick symbol */
   content: '\2713';
 }
