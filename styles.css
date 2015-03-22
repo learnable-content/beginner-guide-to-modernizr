@@ -4,8 +4,22 @@
  *  is supported or use the no-* class name when it's not.
  */
 
+.emoji ul {
+  padding: 0;
+}
 
+.emoji li {
+  padding-left: 25px;
+  position: relative;
+  list-style: none;
+}
 
+.emoji li:before {
+  content: '\1F449';
+  position: absolute;
+  left: 0;
+  vertical-align: top;
+}
 
 
 /* Default styles */
