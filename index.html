@@ -8,11 +8,13 @@
 </head>
 <body>
 
-  <h1>Modernizr dev build with "modernizr" as the class prefix</h1>
+  <h1>Modernizr dev build with "FeatureTest--" as the class prefix</h1>
   
-  <p>By setting the class prefix every feature test will begin with "modernizr". So .flexbox will become <code>.modernizrflexbox</code> or <code>.modernizrno-flexbox</code>.</p>
+  <p>By setting the class prefix every feature test will begin with "FeatureTest--". So .flexbox will become <code>.FeatureTest--flexbox</code> or <code>.FeatureTest--no-flexbox</code>.</p>
   
-  <p>Probably not what you would expect. Modernizr does not add any sort of separator between a custom class prefix name and the test names, that is upto you to add.<p/>
+  <p>This class prefix adds a separator that make it much easier to read and makes more sense in the context of your website. It won't clash with existing genericly names classes and it clearly states what the class is about.<p/>
+  
+  <p>The <code>PascalCase--</code> naming convention comes from <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname--modifiername" target="_blank">SUIT CSS</a>.</p>
   
   <p class="flex">Do I support flexbox?</p>
 

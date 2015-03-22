@@ -364,7 +364,7 @@
     // Any settings that don't work as separate modules
     // can go in here as configuration.
     _config: {
-      'classPrefix' : 'modernizr',
+      'classPrefix' : 'FeatureTest--',
       'enableClasses' : true,
       'enableJSClass' : true,
       'usePrefixes' : true

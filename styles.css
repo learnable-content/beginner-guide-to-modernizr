@@ -1,9 +1,8 @@
 /*
- * The prefix becomes a little confusing
- * as there is no separator.
+ * The new prefix reads a lot better and is clearer
  */
 
-.modernizrno-flexbox .flex {
+.FeatureTest--no-flexbox .flex {
   color: red;
 } 
 
