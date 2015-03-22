@@ -1,0 +1,14 @@
+/*
+ *  Modernizr adds either a .feature or .no-feature class to
+ *  the html element so you can target styles for when a feature
+ *  is supported or use the no-* class name when it's not.
+ */
+
+
+
+
+
+/* Default styles */
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
