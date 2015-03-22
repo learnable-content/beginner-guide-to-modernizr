@@ -1,0 +1,20 @@
+/*
+ * The prefix becomes a little confusing
+ * as there is no separator.
+ */
+
+.modernizrno-flexbox .flex {
+  color: red;
+} 
+
+
+.flex {
+  color: green;
+}
+
+
+
+/* Default styles */
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
