@@ -1,9 +1,24 @@
 /*
- *  Modernizr adds either a .feature or .no-feature class to
- *  the html element so you can target styles for when a feature
- *  is supported or use the no-* class name when it's not.
+ * Modernizr adds either a .feature or .no-feature class to
+ * the html element so you can target styles for when a feature
+ * is supported or use the no-* class name when it's not.
  */
 
+/* 
+ * All flexbox supporting browsers will have these styles
+ */
+
+
+/*
+ * Early firefox didn't support flexbox wrap.
+ * Modernizr has a separate feature test for 
+ * that.
+ */
+
+
+/*
+ * Applied for older browsers
+ */
 
 
 
@@ -11,4 +26,22 @@
 /* Default styles */
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  color: green;
+  margin: 5px auto;
+  border: 1px solid;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+li:after {
+  /* '/2713' is the unicode for the tick symbol */
+  content: '\2713';
+  position: absolute;
+  right: 5px;
 }
