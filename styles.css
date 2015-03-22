@@ -7,18 +7,55 @@
 /* 
  * All flexbox supporting browsers will have these styles
  */
-
+.flexbox ul {
+  display: flex;
+}
 
 /*
  * Early firefox didn't support flexbox wrap.
  * Modernizr has a separate feature test for 
  * that.
  */
-
+.flexwrap ul {
+  flex-wrap: wrap;
+}
+.flexbox li {
+  flex-basis: 150px;
+}
 
 /*
  * Applied for older browsers
  */
+.no-flexbox li {
+  float: left;
+  margin: 0 20px;
+}
+
+.no-flexbox .flex {
+  color: red;
+}
+.no-flexbox .flex:after {
+  /* '/2718' is the unicode for the cross symbol */
+  content: '/2718';
+}
+.no-peerconnection .webrtc {
+  color: red;
+}
+.no-peerconnection .webrtc:after {
+  content: '\2718';
+}
+.no-webp .webp {
+  color: red;
+}
+.no-webp .webp:after {
+  content: '\2718';
+}
+.no-serviceworker .serviceworkers {
+  color: red;
+}
+.no-serviceworker .serviceworkers:after {
+  content: '\2718';
+}
 
 
 
