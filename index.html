@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="modernizr-dev.js"></script>
+  <script src="script.js"></script>
+  <title>Modernizr.prefixed &amp; prefixedCSS | Lesson 3.4 | A beginners guide to Modernizr</title>
+</head>
+<body>
+
+  <h1>Modernizr.prefixed &amp; prefixedCSS</h1>
+
+  <p>When dealing with prefixes the <code>Modernizr.prefixed()</code> or <code>Modernizr.prefixedCSS()</code> methods can be really helpful. Depending on your situation both do that same thing but return in a different format. The one exception is that <code>prefixed</code> handles both CSS and DOM properties.</p>
+
+  <h2>Modernizr.prefixed()</h2>
+  <label>Type in a CSS property:</label>
+  <input id='prefixedValue' placeholder='e.g. borderRadius' />
+  <button id='prefixed'>check</button>
+  <div id='prefixedResult'></div>
+
+  <h2>Modernizr.prefixedCSS()</h2>
+  <label>Type in a CSS property:</label>
+  <input id='prefixedCSSValue' placeholder='e.g. border-radius' />
+  <button id='prefixedCSS'>check</button>
+  <div id='prefixedCSSResult'></div>
+
+</body>
+</html>
