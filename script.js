@@ -5,7 +5,7 @@
 
 $('#mq').on('click', function() {
   
-
+  isSupported(Modernizr.mq('(orientation:portrait)'), this);
   
 });
 
