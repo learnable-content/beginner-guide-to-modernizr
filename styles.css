@@ -1,8 +1,13 @@
+#js {
+  background: green;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
-
-
-
-
+.no-js #js {
+  background: red;
+}
 
 /* Default styles */
 .u-isHidden {
