@@ -1,4 +1,4 @@
-![](A_Beginners_Guide_to_Modernizr_handouts/headings/3.1.png)
+![](headings/3.1.png)
 
 # Using Modernizr in JavaScript
 
