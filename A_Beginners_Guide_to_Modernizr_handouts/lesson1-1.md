@@ -1,4 +1,4 @@
-![](A_Beginners_Guide_to_Modernizr_handouts/headings/1.1.png)
+![](headings/1.1.png)
 
 # So what is Modernizr?
 
