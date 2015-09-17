@@ -1,4 +1,4 @@
-![](A_Beginners_Guide_to_Modernizr_handouts/headings/1.2.png)
+![](headings/1.2.png)
 
 # Introduction to Modernizr
 
