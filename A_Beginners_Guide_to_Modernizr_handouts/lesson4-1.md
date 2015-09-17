@@ -1,4 +1,4 @@
-![](A_Beginners_Guide_to_Modernizr_handouts/headings/4.1.png)
+![](headings/4.1.png)
 
 # What is Progressive Enhancement?
 
